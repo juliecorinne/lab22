@@ -23,7 +23,8 @@
             <td>${coffeeOrder.name}</td>
             <td>${coffeeOrder.description}</td>
             <td>${coffeeOrder.price}</td>
-            <td>${coffeeOrder.quantity}</td>
+            <%--<td>${coffeeOrder.quantity}</td>--%>
+            <td><input id=${coffeeOrder.quantity} type="submit" value="Add to Order"></td>
         </tr>
     </c:forEach>
 </table>

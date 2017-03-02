@@ -13,6 +13,6 @@
 <body>
 Welcome to GC Coffee Register!<br>
 <a href="getInfo">Register an account</a><br>
-<a href="order">Place an Order</a>
+<a href="orderInfo">Place an Order</a>
 </body>
 </html>

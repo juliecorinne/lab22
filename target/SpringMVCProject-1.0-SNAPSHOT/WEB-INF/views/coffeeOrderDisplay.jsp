@@ -18,12 +18,13 @@
         <th>Description</th>
         <th>Price</th>
         <th>Quantity</th></tr>
-    <c:forEach var="coffeeOrderDisplay" items="${coffeeList}">
+    <c:forEach var="coffeeOrder" items="${coffeeList}">
         <tr>
             <td>${coffeeOrder.name}</td>
             <td>${coffeeOrder.description}</td>
             <td>${coffeeOrder.price}</td>
-            <td>${coffeeOrder.quantity}</td>
+            <%--<td>${coffeeOrder.quantity}</td>--%>
+            <td><input id=${coffeeOrder.quantity} type="submit" value="Add to Order"></td>
         </tr>
     </c:forEach>
 </table>
